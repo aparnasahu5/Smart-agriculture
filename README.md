@@ -66,6 +66,8 @@ traditional farming issues, like drought response, yield optimization, land
 suitability, irrigation, and pest control. Figure 9 lists a hierarchy of major
 applications, services and wireless sensors being used for smart agriculture
 applications.
+
+
 Open weather api link:
 api.openweathermap.org/data/2.5/weather?q=Samastipur,IN&appid=b8a325a0016e0
 76761f7088f63eb1c5c
