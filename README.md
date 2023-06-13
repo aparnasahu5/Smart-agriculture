@@ -17,21 +17,35 @@ The drawback for the RNN model was the slowness because of the scraping. While t
 Module Wise Description:
 
 This program is constructed with the use of:
+
 • CountVectorizer tool from the scikit-learn library to break down the given text into words and then modify it into vectors on the basis of its frequency. 
+
 • LabelEncoder tool from the sklearn library is used to encode the levels of categorical features into numeric values i.e. in this project to give unique records in the language column and count of its corresponding records from the text column. 
+
 • train_test_split tool from the sklearn library split arrays or matrices into random train and test subsets • test_size has been initialized as 0.20 ( size of the test set is 20% and the train set is 80% of the Lang_new_version_2.0 dataset) 
+
 • The model chosen for this project is MultiNomialNB from the sklearn.naive_bayes library ,The multinomial Naive Bayes classifier is suitable for classification with discrete features (e.g., word counts for text classification) which makes it an apt combination with the CountVectorizer tool. 
+
 • The accuracy score, confusion matrix and classification report has been classified from the sklearn.metrics library
 
 
 Design:
 Dataset used: The dataset used for this project, Language_Detection, comprises 15+ languages and comprises 10,000+ entries. This dataset was obtained from kaggle.
+
+
+
 Tools used:
+
 Google Colaboratory Notebook
+
 Excel for the dataset
+
 pandas for data manipulation and analysis.
+
 numpy for adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+
 re for using regular expression functions
+
 seaborn and matplotlib for drawing attractive and informative statistical graphics. deep_translator to import the google_translator api for the translation process
 
 
