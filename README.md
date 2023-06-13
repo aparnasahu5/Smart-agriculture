@@ -20,17 +20,22 @@ Tools used:
 5. re for using regular expression functions
 6. seaborn and matplotlib for drawing attractive and informative statistical graphics. deep\_translator to import the google\_translator api for the translation process
 
-Implementation: We have 17 languages and their corresponding unique words are shown below: ![](RackMultipart20230613-1-jyv9vj_html_8c71e64fcdcc6d8c.png)
+Implementation: We have 17 languages and their corresponding unique words are shown below:
+![](RackMultipart20230613-1-jyv9vj_html_8c71e64fcdcc6d8c.png)
 
-The accuracy found out while predicting the languages is found to be 97.4855% ![](RackMultipart20230613-1-jyv9vj_html_69944eaf28a686f9.png)
+The accuracy found out while predicting the languages is found to be 97.4855%
+![](RackMultipart20230613-1-jyv9vj_html_69944eaf28a686f9.png)
 
-The confusion matrix depicted below provides information on how the languages are compared as well as the degree of similarity between them. For example, when compared to any other language, the characters in the English language are the most similar to those in English, followed by Italian and Portuguese. ![](RackMultipart20230613-1-jyv9vj_html_c3912480bca4bd89.png)
+The confusion matrix depicted below provides information on how the languages are compared as well as the degree of similarity between them. For example, when compared to any other language, the characters in the English language are the most similar to those in English, followed by Italian and Portuguese.
+![](RackMultipart20230613-1-jyv9vj_html_c3912480bca4bd89.png)
 
 The confusion matrix has been mapped into a heat map using the spectral colormap, with the block with the highest similarity to a language being marked with a shade of blue ((3,3),253) and the block with the least similarity to a language being marked with a shade
 
-of dark red. (0) ![](RackMultipart20230613-1-jyv9vj_html_e7cc02eb1593f29f.png)
+of dark red. (0)
+![](RackMultipart20230613-1-jyv9vj_html_e7cc02eb1593f29f.png)
 
-The classification report is given here, from which we can learn about the precision, recall, f1-score and its accompanying macro average, weighted average, support value, and total accuracy. As a result, we may deduce that 20 percent of the dataset (20% of 10,337 records = 2,068) has been used as the test set entries. ![](RackMultipart20230613-1-jyv9vj_html_1c26d58002d4a.png)
+The classification report is given here, from which we can learn about the precision, recall, f1-score and its accompanying macro average, weighted average, support value, and total accuracy. As a result, we may deduce that 20 percent of the dataset (20% of 10,337 records = 2,068) has been used as the test set entries.
+![](RackMultipart20230613-1-jyv9vj_html_1c26d58002d4a.png)
 
 ![](RackMultipart20230613-1-jyv9vj_html_dcd5284b880e1a18.png)
 
